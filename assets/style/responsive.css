@@ -1,0 +1,21 @@
+@media (min-width:1200px){
+	.container {
+		max-width: 1340px;
+	}
+}
+@media (max-width:1023px){
+	.header__menu{
+		display: none;
+	}
+	.header__cart {
+		margin-left: 50%;
+	}
+	.burger{
+		display:block;
+	}
+}
+@media (max-width:991px){
+	.product-sort .orderby{
+		width:100%;
+	}
+}
